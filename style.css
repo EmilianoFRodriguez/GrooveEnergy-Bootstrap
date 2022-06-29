@@ -11,3 +11,40 @@
 .logo {
     height: 100px;
 }
+
+/*Main*/
+
+.main {
+    background-color: #0c0d12;
+}
+.main h2 {
+    color: whitesmoke;
+    text-align: center;
+}
+    /*Carousel------------*/
+.containerCarousel {
+    height: 70vh;
+}
+.top3{
+    padding: 5% 0;
+}
+
+    /*Section Noticias---------------------------------------------*/
+.container {
+    height: 110vh;
+    background-color: #0c0d12;
+    color: white;
+}
+.imgNews {
+    height: 120px;
+}
+.textNews {
+    padding: 10% 0 5%;
+}
+.col {
+    text-align: center;
+}
+    /*Notas-----------------*/
+.imgNotas {
+    height: 250px;
+}
