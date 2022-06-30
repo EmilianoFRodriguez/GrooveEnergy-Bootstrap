@@ -48,3 +48,28 @@
 .imgNotas {
     height: 250px;
 }
+
+    /*footer--------------*/
+    .footer {
+        height: auto;
+        padding-top: 10px;
+        background-color:hwb(240 4% 94%);
+        color: whitesmoke;
+    }
+    .icons {
+        list-style: none;
+        display: flex;
+        justify-content: space-evenly;
+        
+    }
+    .arrow-up {
+        width: 40px;
+        height: auto;
+        position: fixed;
+        padding: 5px;
+        bottom: 0%;
+        right: 0%;
+    }
+    .icon {
+        height: 20px;
+    }
