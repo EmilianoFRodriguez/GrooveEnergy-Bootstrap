@@ -1,5 +1,6 @@
 .navbar {
     background-image: url(imagenes/Portada-2.jfif);
+    height: 120px;
 }
 .offcanvas {
     color: whitesmoke;
@@ -15,6 +16,7 @@
 /*Main*/
 
 .main {
+    margin-top: 120px;
     background-color: #0c0d12;
 }
 .main h2 {

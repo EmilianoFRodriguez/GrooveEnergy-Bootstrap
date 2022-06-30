@@ -4,27 +4,121 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Groove Energy</title>
+    <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
   </head>
   <body>
-    
     <header>
-
+      <p id="backtotop"></p>
+      <nav class="navbar fixed-top">
+        <div class="container-fluid">
+          <button class="navbar-toggler bg-light" type="button" data-bs-toggle="offcanvas" data-bs-target
+          ="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <h1>GROOVE ENERGY</h1>
+          <img class="logo" src="../imagenes/logo-BLANCO.png" alt="logo-groove-energy">
+          <div class="offcanvas offcanvas-start bg-dark" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1">
+                <li class="nav-item">
+                  <a class="nav-link" href="../index.html">>Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Nosotros.html">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Nuestros-Djs.html">Nuestros Djs</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Nuevos-Lanzamientos.html">Nuevos Lanzamientos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Formulario.html">Comparti tu musica al mundo</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
     </header>
-    
     <main>
-
+      <section class="container">
+        <div class="row">
+          <div class="col">
+            <img src="../Imagenes/logo-NEGRO.png" alt="Logo Groove Energy" class="imgNotas">
+          </div>
+          <div class="col">
+            <h3>
+              Groove Energy
+          </h3>
+          <p>
+            Nacio dentro de un grupo de amigos sonde lo unico que importaba era escuchar musica y pasarla bien. Con el tiempo fuimos creciendo dentro del ambito de la musica y teniamos la necesidad de expandirnos.
+            A partir de ese momento se creo Groove Energy, con la esperanza de ser escuchados por cada rincon del planeta y a su vez ayudar a nuestros colegas a cumplir un mismo sueño.
+          </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <h3>
+              Nuevos horizontes
+          </h3>
+          <p>
+            Sabemos que la musica comunmente es frecuentada atraves de paginas web, dispositivos, plataformas, etc. Pero no hay nada mejor que tocar en vivo para un publico dispuesto a bailar toda la noche.
+            Por eso estamos buscando darle vida al ultimo proyecto llamado "Groove Energy Festival". Donde todos nuestros colegas podran presentarse y desplegar sus sonidos por distintas partes de la ciudad! Llenandose de es buena energia que trasmite la gente.
+          </p>
+          </div>
+          <div class="col">
+            <img src="../Imagenes/Compactera.jpg" alt="Controlador-Dj" class="imgNotas">
+          </div>
+        </div>
+      </section>
     </main>
-
-    <footer>
-
+    <footer class="footer">
+      <section class="container footer">
+        <div class="row">
+          <div class="col">
+            <p id="contacto">grooveenergy@gmail.com</p>
+            <p>+54 3476-395847</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <ul class="icons">
+              <li>
+                <div>
+                  <a href="https://www.instagram.com/grooveenergy.arg/" target="_blank"><i><img src="../imagenes/iconos/instagram-color.svg" alt="icono-instagram-grooveenergy" class="icon"></i>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="footer__enlace">
+                  <a href="https://www.facebook.com/groove.energy.1" target="_blank"><i><img src="../imagenes/iconos/Facebook3.svg" alt="icono-facebook-grooveenergy" class="icon"></i>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="footer__enlace">
+                  <a href="https://www.youtube.com/channel/UCkVbQC3kMnSnlEhE96VaM0Q" target="_blank"><i><img src="../Imagenes/iconos/youtube-icon.svg" alt="icono-youtube-grooveenergy" class="icon"></i>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="footer__enlace">
+                  <a href="https://soundcloud.com/user-562861728" target="_blank"><i><img src="../Imagenes/iconos/soundcloud-color.svg" alt="icono-soundcloud-grooveenergy" class="icon"></i>
+                  </a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <a href="#backtotop"><i class="arriba"><img src="../imagenes/iconos/arrow-up-circle-background.svg" alt="arrow-up" class="arrow-up"></i></a>
+      </section>
     </footer>
-
-
-
-
-
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
   </body>
 </html>
