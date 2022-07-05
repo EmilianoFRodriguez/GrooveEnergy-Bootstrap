@@ -1,3 +1,8 @@
+
+
+
+/* Hrader ------------------------------------*/
+
 .navbar {
     background-image: url(imagenes/Portada-2.jfif);
     height: 120px;
@@ -55,9 +60,6 @@
     height: 250px;
 }
     /*Main - Nosotros------------------*/
-.separador {
-    height: 100px;
-}
 .containerNos {
     width: 100%;
 }
