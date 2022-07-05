@@ -55,7 +55,12 @@
     height: 250px;
 }
     /*Main - Nosotros------------------*/
-
+.separador {
+    height: 100px;
+}
+.containerNos {
+    width: 100%;
+}
 
 
 
@@ -64,7 +69,7 @@
     .footer {
         height: auto;
         padding-top: 10px;
-        background-color:hwb(240 4% 94%);
+        background-color:#0a0a0f;
         color: whitesmoke;
     }
     .icons {
@@ -168,7 +173,7 @@
         .imgNews:hover {
             transform: scale(1.2);
         }
-        .icons li:hover {
+        .icons li {
             transition: all .5s;
         }
         .icons li:hover {
