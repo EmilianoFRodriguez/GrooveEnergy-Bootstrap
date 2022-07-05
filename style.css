@@ -13,7 +13,7 @@
     height: 100px;
 }
 
-/*Main*/
+/*Main - Index-------------------------------------*/
 
 .main {
     margin-top: 120px;
@@ -34,6 +34,7 @@
     height: auto;
     background-color: #0c0d12;
     color: white;
+    padding: 10% 0;
 }
 .imgNews {
     height: auto;
@@ -53,6 +54,11 @@
 .imgNotas {
     height: 250px;
 }
+    /*Main - Nosotros------------------*/
+
+
+
+
 
     /*footer--------------*/
     .footer {
