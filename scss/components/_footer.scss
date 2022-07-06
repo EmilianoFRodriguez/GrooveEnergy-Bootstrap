@@ -1,0 +1,43 @@
+footer {
+    height: auto;
+    padding-top: 10px;
+    background-color: nth($bg, 3);
+    color: $color-text;
+    section {
+        div {
+            .col {
+                text-align: center;
+            }
+        }
+        div {
+            ul {
+                list-style: none;
+                display: flex;
+                justify-content: space-evenly;
+                li {
+                    div {
+                        a {
+                            i {
+                                img {
+                                    height: 20px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        a {
+            i {
+                .arrow-up {
+                    width: 40px;
+                    height: auto;
+                    position: fixed;
+                    padding: 5px;
+                    bottom: 0%;
+                    right: 0%;
+                }
+            }
+        }
+    }
+}
