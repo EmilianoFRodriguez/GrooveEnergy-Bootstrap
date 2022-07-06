@@ -1,0 +1,98 @@
+@import 'base/variables';
+@import '../scss/base/listas';
+header {
+    nav {
+        background-image: url(../Imagenes/Portada-2.jfif);
+        height: 120px;
+        div {
+            h1 {
+                color: $color-text;
+            }
+            img {
+                height: 100px;
+            }
+        }
+    }
+}
+.main {
+    margin-top: 120px;
+    background-color: nth($bg, 2);
+    .containerCarousel {
+        padding-top: 3%;
+        height: 100vh;
+        h2{
+            color: $color-text;
+            text-align: center;
+        }
+    }
+    .container {
+        height: auto;
+        background-color: nth($bg, 2);
+        color: $color-text;
+        padding: 10% 0;
+
+        h2 {
+            width: auto;
+            padding: 5px;
+            margin: 5% 5%;
+            border-radius: 10px;
+            background-color: nth($bg, 1);
+            text-align: center;
+        }
+        div {
+            div{
+                img {
+                    height: auto;
+                    width: 80%;
+                }
+            }
+        }
+        .col {
+            text-align: center;
+        }
+    }
+
+}
+footer {
+    height: auto;
+    padding-top: 10px;
+    background-color: nth($bg, 3);
+    color: $color-text;
+    section {
+        div {
+            .col {
+                text-align: center;
+            }
+        }
+        div {
+            ul {
+                list-style: none;
+                display: flex;
+                justify-content: space-evenly;
+                li {
+                    div {
+                        a {
+                            i {
+                                img {
+                                    height: 20px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        a {
+            i {
+                .arrow-up {
+                    width: 40px;
+                    height: auto;
+                    position: fixed;
+                    padding: 5px;
+                    bottom: 0%;
+                    right: 0%;
+                }
+            }
+        }
+    }
+}

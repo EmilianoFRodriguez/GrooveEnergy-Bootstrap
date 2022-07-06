@@ -1,0 +1,72 @@
+header nav {
+  background-image: url(../Imagenes/Portada-2.jfif);
+  height: 120px;
+}
+header nav div h1 {
+  color: whitesmoke;
+}
+header nav div img {
+  height: 100px;
+}
+
+.main {
+  margin-top: 120px;
+  background-color: #0c0d12;
+}
+.main .containerCarousel {
+  padding-top: 3%;
+  height: 100vh;
+}
+.main .containerCarousel h2 {
+  color: whitesmoke;
+  text-align: center;
+}
+.main .container {
+  height: auto;
+  background-color: #0c0d12;
+  color: whitesmoke;
+  padding: 10% 0;
+}
+.main .container h2 {
+  width: auto;
+  padding: 5px;
+  margin: 5% 5%;
+  border-radius: 10px;
+  background-color: rgba(73, 25, 117, 0.5803921569);
+  text-align: center;
+}
+.main .container div div img {
+  height: auto;
+  width: 80%;
+}
+.main .container .col {
+  text-align: center;
+}
+
+footer {
+  height: auto;
+  padding-top: 10px;
+  background-color: #0a0a0f;
+  color: whitesmoke;
+}
+footer section div .col {
+  text-align: center;
+}
+footer section div ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+footer section div ul li div a i img {
+  height: 20px;
+}
+footer section a i .arrow-up {
+  width: 40px;
+  height: auto;
+  position: fixed;
+  padding: 5px;
+  bottom: 0%;
+  right: 0%;
+}
+
+/*# sourceMappingURL=style.css.map */
