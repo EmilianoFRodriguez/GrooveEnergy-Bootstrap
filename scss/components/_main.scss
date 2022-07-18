@@ -15,6 +15,18 @@ main {
         color: $color-text;
         padding: 10% 0;
 
+        .djs {
+            div {
+                padding-bottom: 100px;
+            }
+        }
+        .nuevosL {
+            padding-bottom: 100px;
+        }
+        .lg {
+            margin-bottom: 50px;
+        }
+
         h2 {
             width: auto;
             padding: 5px;
@@ -41,6 +53,11 @@ main {
         }
         .col {
             text-align: center;
+        }
+        .textCenter {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
         }
     }
 

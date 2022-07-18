@@ -27,6 +27,15 @@ main .container {
   color: whitesmoke;
   padding: 10% 0;
 }
+main .container .djs div {
+  padding-bottom: 100px;
+}
+main .container .nuevosL {
+  padding-bottom: 100px;
+}
+main .container .lg {
+  margin-bottom: 50px;
+}
 main .container h2 {
   width: auto;
   padding: 5px;
@@ -51,6 +60,11 @@ main .container div div .imgNotas {
 }
 main .container .col {
   text-align: center;
+}
+main .container .textCenter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 footer {
@@ -142,7 +156,8 @@ footer section a i .arrow-up {
     transform: scale(1.2);
   }
   main .lg {
-    height: 100vh;
+    height: auto;
+    padding-bottom: px;
   }
   main .mdSm {
     display: none;
