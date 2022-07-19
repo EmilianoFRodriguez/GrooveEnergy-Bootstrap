@@ -30,7 +30,7 @@ main {
             text-align: center;
         }
         div {
-            text-align: center;
+
             .titleNovedades {
                 padding-bottom: 15px;
                 text-decoration: underline $color-text;
@@ -45,13 +45,8 @@ main {
                 }
             }
         }
-        .col {
-            text-align: center;
-        }
-        .textCenter {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
+        .centrado {
+            @extend %centrado;
         }
     }
 

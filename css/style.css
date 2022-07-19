@@ -1,3 +1,4 @@
+
 header nav {
   background-image: url(../Imagenes/Portada-2.jfif);
   height: 120px;
@@ -38,9 +39,6 @@ main .container h2 {
   background-color: rgba(73, 25, 117, 0.5803921569);
   text-align: center;
 }
-main .container div {
-  text-align: center;
-}
 main .container div .titleNovedades {
   padding-bottom: 15px;
   text-decoration: underline whitesmoke;
@@ -52,15 +50,12 @@ main .container div div .imgNews {
 main .container div div .imgNotas {
   height: 300px;
 }
-main .container .col {
+main .container .centrado {
   text-align: center;
-}
-main .container .textCenter {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-
 footer {
   height: auto;
   padding-top: 10px;
