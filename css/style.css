@@ -12,6 +12,16 @@ header nav {
 header nav div h1 {
   color: whitesmoke;
 }
+header nav div div h5 {
+  color: whitesmoke;
+}
+header nav div div div ul li {
+  padding: 5px;
+}
+header nav div div div ul li .navItem {
+  text-decoration: none;
+  color: whitesmoke;
+}
 header nav div img {
   height: 100px;
 }

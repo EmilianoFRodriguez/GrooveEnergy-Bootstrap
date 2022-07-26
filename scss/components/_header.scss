@@ -6,6 +6,22 @@ header {
             h1 {
                 color: $color-text;
             }
+            div {
+                h5 {
+                    color: $color-text;
+                }
+                div {
+                    ul {
+                        li {
+                            padding: 5px;
+                            .navItem {
+                                text-decoration: none;
+                                color: $color-text;
+                            }
+                        }
+                    }
+                }
+            }
             img {
                 height: 100px;
             }
