@@ -28,14 +28,24 @@ footer {
             }
         }
         a {
+            background-color: nth($bg, 5);
+            padding: 3px 5px;
+            border-radius: 100%;
             i {
-                .arrow-up {
+                .icon {
+                    padding-bottom: 3px;
+                }
+            }
+        }
+        .arrow-up {
+            position: fixed;
+            padding: 5px;
+            bottom: 1%;
+            right: 1%;
+            i {
+                .arrow {
                     width: 40px;
                     height: auto;
-                    position: fixed;
-                    padding: 5px;
-                    bottom: 0%;
-                    right: 0%;
                 }
             }
         }

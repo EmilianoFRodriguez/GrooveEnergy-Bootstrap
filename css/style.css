@@ -106,13 +106,23 @@ footer section div ul {
 footer section div ul li div a i img {
   height: 20px;
 }
-footer section a i .arrow-up {
-  width: 40px;
-  height: auto;
+footer section a {
+  background-color: #898989;
+  padding: 3px 5px;
+  border-radius: 100%;
+}
+footer section a i .icon {
+  padding-bottom: 3px;
+}
+footer section .arrow-up {
   position: fixed;
   padding: 5px;
-  bottom: 0%;
-  right: 0%;
+  bottom: 1%;
+  right: 1%;
+}
+footer section .arrow-up i .arrow {
+  width: 40px;
+  height: auto;
 }
 
 @media only screen and (max-width: 468px) {
