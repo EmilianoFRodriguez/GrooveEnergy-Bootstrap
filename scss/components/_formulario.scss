@@ -1,5 +1,33 @@
-form {
-    div {
-        color: $color-text2;
+.containerForm {
+    width: 60%;
+    height: auto;
+    padding: 5%;
+    margin: auto;
+    form {
+        h3 {
+            text-align: center;
+            color: $color-text;
+            text-decoration: underline ;
+        }
+        border-radius: 5%;
+        padding: 5%;
+        background-color: nth($bg, 1);
+
+        div {
+            label {
+                color: $color-text2;
+                background-color: nth($bg, 5);
+                padding: 2px 5px;
+                border-radius: 5px;
+            }
+            padding: 15px 0;
+        }
+        .description {
+            color: $color-text;
+        }
+        button {
+            color: $color-text;
+            background-color: nth($bg, 4);
+        }
     }
 }

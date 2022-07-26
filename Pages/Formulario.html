@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -24,7 +24,7 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <h1>GROOVE ENERGY</h1>
-          <a href="../index.html"><img class="logo" src="../imagenes/logo-BLANCO.png" alt="logo-groove-energy"></a>
+          <a href="../index.html"><img class="logo" src="https://i.ibb.co/FXxZySr/logo-BLANCO.png" alt="logo-groove-energy"></a>
           <div class="offcanvas offcanvas-start bg-dark" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
             <div class="offcanvas-header">
               <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
@@ -54,65 +54,47 @@
       </nav>
     </header>
     <main>
-
-      <!-- <form action="" method="post" enctype="multipart/form-data">
-        <h3></h3>
-        <div>
-          <label for="iname">Titulo</label>
-          <input id="iname" type="text" name="Titulo">
-        </div>
-        <div>
-          <label for="">Genero</label>
-          <input type="h" >
-        </div>
-        <div>
-          <label for="">Tags</label>
-          <input type="text" name="#Hashtags">
-        </div>
-        <div>
-          <label for="">Descrpción</label>
-          <input type="text">
-        </div>
-        <input type="file" name="" id="">
-        <input type="image" src="" alt="">
-        <input type="submit" value="Enviar">
-        <input type="reset" value="Limpiar Formulario">
-      </form> -->
-
-      <div class="container form">
-        <form action="row">
-          <!-- <div class="input-group">
-            <input type="file" class="form-control" id="inputGroupFile02">
-          </div> -->
-          <div class=" form-floating">
-            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
-            <label for="floatingTextarea">Titulo</label>
-          </div>
-          <select class="form-select" aria-label="Default select example">
-            <option selected>Selecciona el Genero</option>
-            <option value="1">Minimal</option>
-            <option value="2">Tech House</option>
-            <option value="3">Techno</option>
-          </select>
-          <div class="form-floating">
-            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
-            <label for="floatingTextarea">Tags</label>
-          </div>
-          <div class="form-floating">
-            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
-            <label for="floatingTextarea">Comments</label>
-          </div>
-          
+      <div class="containerForm">
+        <form action="formulario.php" method="POST" class="row">
+          <h3>La musica no tiene fronteras...</h3>
           <div class="">
-            <label for="exampleFormControlTextarea1" class="form-label">Descripcion</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            <label for="iName" class="form-label">Nombre</label>
+            <input id="iName" name="name" type="text" class="form-control" placeholder="Nombre de Dj" required>
           </div>
-          <div class="input-group">
-            <input type="file" class="form-control" id="inputGroupFile02">
+          <div class="">
+            <label for="iEmail" class="form-label">Email</label>
+            <input id="iEmail" name="email" type="email" class="form-control" placeholder="inserta-email-de@contacto.com" required>
+          </div>
+          <div class="">
+            <label for="iTitle" class="form-label">Titulo</label>
+            <input id="iTitle" name="title" type="text" class="form-control" placeholder="Titulo de tu track / set" required>
+          </div>
+          <div class="">
+            <select class="form-select" aria-label="Default select example" required>
+              <option selected>Selecciona el Genero</option>
+              <option value="1">Minimal</option>
+              <option value="2">Tech House</option>
+              <option value="3">Techno</option>
+              <option value="4">Progressive</option>
+              <option value="5">Otro</option>
+            </select>
+          </div>
+          <div class="">
+            <label for="iTags" class="form-label">Tags</label>
+            <input id="iTags" name="tags" type="text" class="form-control" placeholder="Agrega tus #Hashtags" required>
+          </div>
+          <div class="">
+            <label for="iDescription" class="form-label">Descripcion</label>
+            <textarea id="iDescription" name="description" class="form-control" rows="3" placeholder="Agrega una descripcion de tu contenido" required></textarea>
+          </div>
+          <div class="input-group file">
+            <input type="file" class="form-control" id="inputFile" required>
+          </div>
+          <div class="">
+            <button type="submit" class="btn">Enviar</button>
           </div>
         </form>
       </div>
-
     </main>
     <footer class="footer">
       <section class="container footer py-0">

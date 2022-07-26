@@ -56,8 +56,37 @@ main .container div div .imgNews {
 main .container div div .imgNotas {
   height: 300px;
 }
-form div {
+.containerForm {
+  width: 60%;
+  height: auto;
+  padding: 5%;
+  margin: auto;
+}
+.containerForm form {
+  border-radius: 5%;
+  padding: 5%;
+  background-color: rgba(73, 25, 117, 0.5803921569);
+}
+.containerForm form h3 {
+  text-align: center;
+  color: whitesmoke;
+  text-decoration: underline;
+}
+.containerForm form div {
+  padding: 15px 0;
+}
+.containerForm form div label {
   color: black;
+  background-color: #898989;
+  padding: 2px 5px;
+  border-radius: 5px;
+}
+.containerForm form .description {
+  color: whitesmoke;
+}
+.containerForm form button {
+  color: whitesmoke;
+  background-color: rgba(22, 182, 231, 0.6666666667);
 }
 
 footer {
