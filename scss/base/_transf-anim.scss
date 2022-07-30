@@ -40,3 +40,26 @@ main {
         }
     }
 }
+footer {
+    section {
+        div {
+            div {
+                ul {
+                    li {
+                        transition: all .2s;
+                    }
+                    li:hover {
+                        transform: scale(1.2);
+                        border-radius: 50%;
+                        box-shadow: 0 0 5px whitesmoke,;
+                    }
+                    li:active {
+                        box-shadow: 0 0 15px indigo,
+                                    0 0 20px whitesmoke
+                        ;
+                    }
+                }
+            }
+        }
+    }
+}

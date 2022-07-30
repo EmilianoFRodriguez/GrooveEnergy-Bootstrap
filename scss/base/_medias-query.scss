@@ -99,25 +99,4 @@
             display: none;
         }
     }
-    footer {
-        section {
-            div {
-                div {
-                    ul {
-                        li {
-                            transition: all .5s;
-                        }
-                        li:hover {
-                            transform: scale(1.3);
-                        }
-                        li:active {
-                            border-radius: 5px;
-                            padding: 1px 5px;
-                            background-color: nth($bg, 1);
-                        }
-                    }
-                }
-            }
-        }
-    }
 }
