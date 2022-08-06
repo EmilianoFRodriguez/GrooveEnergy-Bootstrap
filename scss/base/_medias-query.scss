@@ -34,6 +34,18 @@
                     }
                 }
             }
+            .row {
+                display: flex;
+                flex-direction: column;
+                .col {
+                    .nuevosL {
+                        height: 200px;
+                    }
+                }
+            }
+        }
+        .containerForm {
+            width: 90%;
         }
         .lg {
             display: none;
@@ -57,6 +69,20 @@
                 margin: 0% 2%;
             }
         }
+        .container {
+            .row {
+                display: flex;
+                flex-direction: column;
+                .col {
+                    iframe {
+                        height: 250px;
+                    }
+                }
+            }
+        }
+        .containerForm {
+            width: 75%;
+        }
         .mdSm {
             height: auto;
         }
@@ -74,13 +100,12 @@
             }
         }
         .container {
-            .row-wrap {
-                display: flex;
-                flex-wrap: nowrap;
-            }
             div {
                 div {
                     margin-bottom: 25px;
+                    .imgNews {
+                        width: 80%;
+                    }
                     img {
                         margin: 15px 0;
                         transition: all 1s;
@@ -90,6 +115,9 @@
                     }
                 }
             }
+        }
+        .containerForm {
+            width: 60%;
         }
         .lg {
             height: auto;

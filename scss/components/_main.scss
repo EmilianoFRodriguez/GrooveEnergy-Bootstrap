@@ -43,8 +43,10 @@ main {
                 text-decoration: underline $color-text;
             }
             div{
+                text-align: center;
+                padding-bottom: 30px;
                 .imgNews {
-                    width: 80%;
+                    width: 50%;
                     margin: auto;
                 }
             }
