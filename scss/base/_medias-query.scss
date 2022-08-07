@@ -17,7 +17,9 @@
         }
     }
     main {
-        margin-top: 80px;
+        .separador {
+            height: 80px;
+        }
         .containerCarousel {
             section {
                 margin: 0% 2%;
@@ -45,6 +47,9 @@
             }
         }
         .containerForm {
+            width: 90%;
+        }
+        .pForm {
             width: 90%;
         }
         .lg {
@@ -83,6 +88,9 @@
         .containerForm {
             width: 75%;
         }
+        .pForm {
+            width: 75%;
+        }
         .mdSm {
             height: auto;
         }
@@ -117,6 +125,9 @@
             }
         }
         .containerForm {
+            width: 60%;
+        }
+        .pForm {
             width: 60%;
         }
         .lg {

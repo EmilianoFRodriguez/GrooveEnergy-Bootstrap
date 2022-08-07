@@ -1,8 +1,10 @@
 main {
-    margin-top: 120px;
+    .separador {
+        height: 120px;
+    }
     background-color: nth($bg, 2);
     .containerCarousel {
-        padding-top: 10%;
+        padding-top: 5%;
         height: 80vh;
         h2{
             color: $color-text;
@@ -14,7 +16,7 @@ main {
         height: auto;
         background-color: nth($bg, 2);
         color: $color-text;
-        padding: 10% 0;
+        padding: 5% 0;
 
         .divDif {
             background-color: nth($bg, 5);
@@ -60,6 +62,13 @@ main {
         .centrado {
             @extend %centrado;
         }
+    }
+    .pForm {
+        margin: 5% auto 0;
+        padding: 20px 10px;
+        text-align: center;
+        border-radius: 20px;
+        background-color: nth($bg, 5);
     }
 
 }
