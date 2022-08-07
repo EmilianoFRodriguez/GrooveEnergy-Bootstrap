@@ -98,6 +98,9 @@ main .pForm {
   height: 35%;
   width: 100%;
 }
+.exito .row .centrado {
+  color: whitesmoke;
+}
 .exito .row .col {
   width: 80%;
   margin: 0 10%;

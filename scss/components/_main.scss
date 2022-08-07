@@ -78,6 +78,7 @@ main {
         height: 35%;
         width: 100%;
         .centrado {
+            color: $color-text;
             @extend %centrado;
         }
         .col {
