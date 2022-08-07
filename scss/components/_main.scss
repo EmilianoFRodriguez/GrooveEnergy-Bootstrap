@@ -70,5 +70,25 @@ main {
         border-radius: 20px;
         background-color: nth($bg, 5);
     }
-
+}
+.exito {
+    height: 100vh;
+    padding: 5% 0;
+    .row {
+        height: 35%;
+        width: 100%;
+        .centrado {
+            @extend %centrado;
+        }
+        .col {
+            width: 80%;
+            margin: 0 10%;
+            font-size: xx-large;
+            text-align: center;
+            span {
+                padding: 0 50px;
+                font-size: 100px;
+            }
+        }
+    }
 }

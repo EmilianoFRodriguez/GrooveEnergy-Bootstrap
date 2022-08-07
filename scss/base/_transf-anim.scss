@@ -39,6 +39,43 @@ main {
             }
         }
     }
+    .containerForm {
+        .btn:hover {
+            color: $color-text2;
+            background-color: nth($bg, 5);
+        }
+    }
+}
+.exito{
+    .row {
+        .col {
+            span {
+                animation-name: shadows;
+                animation-duration: 2s;
+                animation-iteration-count: infinite;
+            }
+        }
+    }
+}
+@keyframes shadows {
+    0%{
+        text-shadow: 
+            0 0 1px indigo,
+            0 0 3px indigo,
+            0 0 5px whitesmoke;
+    }
+    50%{
+        text-shadow: 
+            0 0 5px indigo,
+            0 0 7px indigo,
+            0 0 15px whitesmoke;
+    }
+    100%{
+        text-shadow: 
+            0 0 1px indigo,
+            0 0 3px indigo,
+            0 0 5px whitesmoke;
+    }
 }
 footer {
     section {

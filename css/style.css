@@ -1,4 +1,4 @@
-main .container .centrado {
+.exito .row .centrado, main .container .centrado {
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -90,6 +90,25 @@ main .pForm {
   background-color: #898989;
 }
 
+.exito {
+  height: 100vh;
+  padding: 5% 0;
+}
+.exito .row {
+  height: 35%;
+  width: 100%;
+}
+.exito .row .col {
+  width: 80%;
+  margin: 0 10%;
+  font-size: xx-large;
+  text-align: center;
+}
+.exito .row .col span {
+  padding: 0 50px;
+  font-size: 100px;
+}
+
 .containerForm {
   padding: 5%;
   margin: auto;
@@ -167,7 +186,28 @@ header nav div div ul li a:hover {
 main .container div div img {
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.9411764706), 0 0 20px rgba(0, 0, 0, 0.8509803922), 0 0 25px rgba(0, 0, 0, 0.7333333333);
 }
+main .containerForm .btn:hover {
+  color: black;
+  background-color: #898989;
+}
 
+.exito .row .col span {
+  animation-name: shadows;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shadows {
+  0% {
+    text-shadow: 0 0 1px indigo, 0 0 3px indigo, 0 0 5px whitesmoke;
+  }
+  50% {
+    text-shadow: 0 0 5px indigo, 0 0 7px indigo, 0 0 15px whitesmoke;
+  }
+  100% {
+    text-shadow: 0 0 1px indigo, 0 0 3px indigo, 0 0 5px whitesmoke;
+  }
+}
 footer section div div ul li {
   transition: all 0.2s;
 }
